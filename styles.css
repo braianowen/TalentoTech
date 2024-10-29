@@ -1,20 +1,24 @@
+/* body */
+
 body {
   font-family: "Pacifico", cursive;
   background-color: #fff3e0;
   color: #6d4c41;
 }
 
+/* navbar */
+
 .navbar {
-  background-color: #f8b195; /* Rosa pastel */
+  background-color: #f8b195;
 }
 @media (max-width: 992px) {
   #navbarNav {
-    text-align: center; 
+    text-align: center;
   }
 
   .navbar-nav {
-    justify-content: center; 
-    width: 100%; 
+    justify-content: center;
+    width: 100%;
   }
 }
 .navbar-brand,
@@ -29,11 +33,11 @@ body {
   font-size: 1.2em;
 }
 .navbar-toggler {
-  border: none; 
+  border: none;
 }
 
 .navbar-toggler:focus {
-  outline: none; 
+  outline: none;
 }
 
 .navbar-toggler-icon {
@@ -41,32 +45,51 @@ body {
 }
 
 .navbar-toggler:hover {
-  background-color: #f67280; 
+  background-color: #f67280;
 }
+
+/* header */
 
 header {
   background-color: #f8b195;
   color: #6d4c41;
 }
 
-button,
+/* card cursos */
+
 .btn-primary {
-  background-color: #f67280; 
-  color: #fff3e0; 
+  background-color: #f67280;
+  color: #fff3e0;
 }
 
-button:hover,
 .btn-primary:hover {
   background-color: #c5e1a5;
 }
 
 .card {
-  background-color: #F8B195; 
-  color: #6D4C41;
-  border: 1px solid #F8B195;
+  background-color: #f8b195;
+  color: #6d4c41;
+  border: 1px solid #f8b195;
 }
 
 .card-img-top {
-  height: 200px;
+  height: 50%;
+  object-fit: cover;
+}
+
+/* carrusel */
+
+.carousel-inner img {
+  height: 400px; 
   object-fit: cover; 
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: transparent; 
+  border: none; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: transparent; 
 }
