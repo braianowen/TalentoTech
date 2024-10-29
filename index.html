@@ -178,7 +178,7 @@
           </div>
         </div>
 
-        <!-- Modal -->
+        <!-- Modal Cursos -->
         <div
           class="modal fade"
           id="videoModal"
@@ -276,16 +276,16 @@
     <script>
       const videoModal = document.getElementById("videoModal");
       videoModal.addEventListener("show.bs.modal", function (event) {
-        const button = event.relatedTarget; // Botón que activó el modal
-        const videoUrl = button.getAttribute("data-video-url"); // Extrae la URL del botón
+        const button = event.relatedTarget; 
+        const videoUrl = button.getAttribute("data-video-url"); 
         const videoIframe = document.getElementById("videoIframe");
-        videoIframe.src = videoUrl; // Actualiza el src del iframe
+        videoIframe.src = videoUrl; 
       });
 
-      // Limpia el iframe cuando se cierra el modal
+    
       videoModal.addEventListener("hidden.bs.modal", function () {
         const videoIframe = document.getElementById("videoIframe");
-        videoIframe.src = ""; // Limpia el src del iframe
+        videoIframe.src = "";
       });
     </script>
   </body>
