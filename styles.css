@@ -1,0 +1,67 @@
+body {
+  font-family: "Pacifico", cursive;
+  background-color: #fff3e0;
+  color: #6d4c41;
+}
+
+.navbar {
+  background-color: #f8b195; /* Rosa pastel */
+}
+@media (max-width: 992px) {
+  /* Cambia este valor si necesitas ajustar el punto de ruptura */
+  #navbarNav {
+    text-align: center; /* Centra el texto dentro del navbar */
+  }
+
+  .navbar-nav {
+    justify-content: center; /* Justifica el contenido al centro */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+  }
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #6d4c41; /* Café oscuro para el texto */
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #6d4c41; /* Café oscuro para el texto */
+}
+.navbar-brand {
+  font-size: 1.2em;
+}
+.navbar-toggler {
+  border: none; /* Elimina el borde */
+}
+
+.navbar-toggler:focus {
+  outline: none; /* Elimina el contorno de enfoque */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba(109, 76, 65, 1)" stroke-width="2" d="M 2 5 L 28 5 M 2 15 L 28 15 M 2 25 L 28 25" /%3E%3C/svg%3E'); /* Cambia el color a café oscuro */
+}
+
+.navbar-toggler:hover {
+  background-color: #f67280; /* Color de fondo al pasar el mouse */
+}
+
+header {
+  background-color: #f8b195; /* Rosa pastel */
+  color: #6d4c41; /* Café oscuro */
+}
+
+button,
+.btn-primary {
+  background-color: #f67280; /* Melocotón */
+  color: #fff3e0; /* Texto claro */
+}
+
+button:hover,
+.btn-primary:hover {
+  background-color: #c5e1a5; /* Verde menta */
+}
+
+.card-img-top {
+  height: 200px; /* Cambia este valor a la altura deseada */
+  object-fit: cover; /* Asegura que la imagen mantenga su proporción al ser ajustada */
+}
